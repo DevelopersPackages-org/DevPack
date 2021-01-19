@@ -4,6 +4,6 @@ import 'package:angular/angular.dart';
   selector: 'logo-area',
   templateUrl: 'logo_area.html',
 )
-class LogoArea {
+class LogoAreaComponent {
   var name = 'Angular';
 }

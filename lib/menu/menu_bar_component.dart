@@ -2,7 +2,7 @@ import 'package:angular/angular.dart';
 
 @Component(
   selector: 'menu-bar',
-  templateUrl: 'menu_bar.html',
+  templateUrl: 'menu_ba_componentr.html',
 )
-class MenuBar {
+class MenuBarComponent {
 }

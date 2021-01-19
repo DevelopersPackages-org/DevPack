@@ -1,12 +1,27 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 @import url(https://fonts.googleapis.com/css?family=Material+Icons);
 
-body {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 5vw;
+@font-face {
+  font-family: "Ubuntu";
+  src: url(../font/Ubuntu.ttf);
+}
+@font-face {
+  font-family: "NoTofu";
+  src: url(../font/NotoSansCJKjp-DemiLight.otf);
+}
+:root {
+  --base-font-color: #c993ff;
+  --base-font-color-hover: #b169fa;
 }
 
 * {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", "NoTofu";
+  margin: 0;
+  font-size: 17.5px;
+}
+body {
+  background-color: #f5f5dc;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 5vw;
 }
