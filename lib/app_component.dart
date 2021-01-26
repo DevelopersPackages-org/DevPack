@@ -1,5 +1,5 @@
 import 'package:angular/angular.dart';
-
+import 'header.dart'
 import 'src/todo_list/todo_list.dart';
 
 // AngularDart info: https://angulardart.dev
@@ -9,7 +9,8 @@ import 'src/todo_list/todo_list.dart';
   selector: 'my-app',
   styleUrls: ['app_component.css'],
   templateUrl: 'app_component.html',
-  directives: [TodoListComponent],
+  directives: [TodoListComponent,
+                HeaderComponent,],
 )
 class AppComponent {
   // Nothing here yet. All logic is in TodoListComponent.

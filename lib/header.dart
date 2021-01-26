@@ -4,7 +4,7 @@ import 'menu/menu_bar.dart';
 
 
 @Component(
-  selector: 'header_component',
+  selector: 'header-part',
   templateUrl: 'header.html',
   directives: [LogoArea,MenuBar],
 )
