@@ -1,4 +1,4 @@
-name: DevelopersPackages
+name: devpack
 description: A web app that uses AngularDart Components
 # version: 1.0.0
 # homepage: https://www.example.com
@@ -17,5 +17,3 @@ dev_dependencies:
   build_web_compilers: ^2.10.0
   pedantic: ^1.9.0
   test: ^1.6.3
-  session: ^0.5.1
-  oauth2: ^1.6.3
