@@ -1,6 +1,6 @@
 import 'package:angular/angular.dart';
 import 'logo_area.dart';
-import 'menu/menu_bar.dart';
+import 'menu_bar.dart';
 
 
 @Component(
