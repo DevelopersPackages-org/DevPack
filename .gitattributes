@@ -1,0 +1,4 @@
+*.py linguist-documentation=false
+*.js linguist-documentation=false
+*.html linguist-documentation=false
+*.css linguist-documentation=false
